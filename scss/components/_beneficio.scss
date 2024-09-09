@@ -1,0 +1,41 @@
+/* Beneficios */
+.beneficio {
+    margin-top: -5px;
+    padding: 50px 0;
+     background: linear-gradient(
+           90deg,
+           rgb(222, 125, 184)0%,
+           rgb(170, 138, 240)70%
+       );
+       text-align: center;
+     }
+     .beneficio-in h2 {
+       font-size: 50px;
+       color: black;
+       margin-bottom: 50px;
+     }
+     .beneficio-in p {
+       font-size: 50px;
+       font-size: 20px;
+     }
+     .beneficio-1 {
+       display: flex;
+       align-items: center;
+       margin-bottom: 70px;
+     }
+     .beneficio-info {
+       display: flex;
+       align-items: center;
+       text-align: left;
+       margin-bottom: 5px;
+     }
+     .beneficio-txt {
+       width: 50%;
+     }
+     .beneficio-in {
+       margin: 20px;
+     }
+   .beneficio-img { 
+        width: 800px; 
+   
+   }

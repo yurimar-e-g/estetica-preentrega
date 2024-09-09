@@ -1,0 +1,62 @@
+/* Tratamientos */
+.container-tratamiento {
+    background: linear-gradient(
+        90deg,
+        rgb(222, 125, 184)0%,
+        rgb(170, 138, 240)70%
+    );
+    padding: 15px 9%;
+padding-bottom: 100px;
+
+}
+
+.container-tratamiento .titulo {
+    text-align: center;
+    padding-bottom: 15px;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    font-size: 50px ;
+
+}
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+}
+.container-tratamiento .box-container .box{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
+.container-tratamiento .box-container .box img{
+    height: 300px;
+}
+.container-tratamiento .box-container .box h3{
+    color:#ff47a7;
+    font-size: 22px;
+    padding: 10px 0;
+    
+}
+.container-tratamiento .box-container .box p{
+    color:black;
+    font-size: 15px;
+    line-height: 1.8;
+    
+}
+.container-tratamiento .box-container .btn{
+    display: inline-block;
+    padding: 13px 35px;
+    color: blue;
+    
+
+}
+.container-tratamiento .box-container .btn:hover{
+    letter-spacing: 1px;
+}
+.container-tratamiento .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.04);
+}
+/* Fin de la seccion tratamientos */

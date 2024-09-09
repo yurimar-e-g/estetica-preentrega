@@ -1,0 +1,133 @@
+/* Responsive */
+@media (max-width:991px) {
+
+    .content {
+        min-height: 70px;
+    }
+    .menu {
+        top: 0;
+        padding: 20px;
+        
+    }
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: linear-gradient(
+            90deg,
+            rgba(203,18,133,1)0%,
+            rgba(80,49,145,1)70%
+        );
+        display: none;
+
+      }
+      .menu .navbar ul li {
+        width: 100%;
+      }
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+    .header {
+        background-position: left;
+        min-height: 0vh;
+        padding: 100px 30px;
+    }
+    .header-txt {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    /* quien somos */
+    
+    .about {
+        padding: 30px;
+        flex-direction: column;
+   }
+   .about-img {
+       justify-content: center;
+       order: 2;
+   }
+   .about-img img {
+       width: 150px;
+       margin: 0 15px;
+   
+   }
+   .about-txt {
+       text-align: center;
+       margin: 35px;
+   }
+
+   /* Especialista */
+   .especialista {
+    padding: 30px;
+    background-color: #f4f5ef;
+   }
+   .especialista h2 {
+    margin: 0;
+
+   }
+   .especialista-content {
+    flex-direction: column;
+    margin-bottom: 15px;
+   }
+   .especialista-1 {
+    padding: 0 25px;
+    margin-bottom: 25px;
+   }
+
+   /* Tipos de Tratamientos */
+   .tratamientos {
+    padding: 30px;
+   }
+   .tratamientos-content {
+    padding: 0 30px;
+    grid-template-columns: repeat(1, 1fr);
+   }
+   
+   /* Beneficios */
+   .beneficio {
+    padding: 30px;
+   }
+   .beneficio-1 {
+    flex-direction: column;
+   }
+   .beneficio-txt {
+    width: 100%;
+   }
+   .beneficio-in {
+    margin-left: 40px;
+   }
+   .beneficio-img{
+    width: 100%;
+    order: 2;
+   }
+
+   /* contacto */
+  .contact-container{
+    margin: 0 auto;
+    width: 90%;
+  } 
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .map iframe{
+    height: 400px;
+  }
+   
+
+   
+  
+}
+/* tratamientos */
+@media (mx-width:768px){
+    .container-tratamiento{
+        padding: 20px;
+    }
+}

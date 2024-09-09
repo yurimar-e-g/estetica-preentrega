@@ -1,0 +1,78 @@
+/* Contacto */
+.contacto {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.contacto-texto {
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact-container {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 0 100px 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    /* background:rgb(249, 201, 229)   */
+    box-shadow: 0 0 1rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.form-container {
+     padding: 20px;
+}
+.form-container h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    
+}
+.contact-form {
+    display: grid;
+    row-gap: 1rem;
+}
+.contact-form input,.contact-form textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 0.9rem;
+    color: black;
+    background: #f8e4ee;
+    border-radius: 0.4rem;
+
+}
+.contact-form textarea {
+    resize: none; 
+    height: 200px;
+}
+.contact-form .send-button {
+     border: none;
+     outline: none;
+     background: rgb(170, 138, 240);
+     font-size: 1rem;
+     font-weight: 500;
+     text-transform: uppercase;
+     cursor: pointer;
+}
+.contact-form .send-button:hover {
+    background: #f4f5ef;
+    transition: 0.5s all linear;
+}
+
+.map iframe{
+    width: 500px;
+    height: 500px;
+    padding: 30px 30px 5px 30px;
+
+
+}

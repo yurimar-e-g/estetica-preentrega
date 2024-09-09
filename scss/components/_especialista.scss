@@ -1,0 +1,35 @@
+/* Especialistas */
+.especialista {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.especialista h2 {
+    font-size: 50px;
+    color:#ff47a7;
+    margin: 80px 0 40px 0;
+
+}
+.especialista p {
+    font-size: 30px;
+    color: black;
+}
+
+.especialista-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+.especialista-1 img {
+    width: 400px;
+    padding: 10px;
+}
+.especialista-1 h3 {
+    color:black;
+    font-size: 35px;
+    margin-bottom: 10px;
+    
+}
